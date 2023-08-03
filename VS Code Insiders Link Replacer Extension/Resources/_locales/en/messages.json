@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "VS Code Insiders Link Replacer Extension",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "remap vscode browser urls to vscode insiders",
+        "description": "Description of what the extension does."
+    }
+}

@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0218C8842A7C576800847EAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0218C8832A7C576800847EAE /* AppDelegate.swift */; };
+		0218C8882A7C576800847EAE /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 0218C8862A7C576800847EAE /* Main.html */; };
+		0218C88A2A7C576800847EAE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0218C8892A7C576800847EAE /* Icon.png */; };
+		0218C88C2A7C576800847EAE /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 0218C88B2A7C576800847EAE /* Style.css */; };
+		0218C88E2A7C576800847EAE /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 0218C88D2A7C576800847EAE /* Script.js */; };
+		0218C8902A7C576800847EAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0218C88F2A7C576800847EAE /* ViewController.swift */; };
+		0218C8932A7C576800847EAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0218C8912A7C576800847EAE /* Main.storyboard */; };
+		0218C8952A7C576B00847EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0218C8942A7C576B00847EAE /* Assets.xcassets */; };
+		0218C89D2A7C576B00847EAE /* VS Code Insiders Link Replacer Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0218C89C2A7C576B00847EAE /* VS Code Insiders Link Replacer Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0218C8A22A7C576B00847EAE /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0218C8A12A7C576B00847EAE /* SafariWebExtensionHandler.swift */; };
+		0218C8A52A7C576B00847EAE /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 0218C8A42A7C576B00847EAE /* _locales */; };
+		0218C8A72A7C576B00847EAE /* images in Resources */ = {isa = PBXBuildFile; fileRef = 0218C8A62A7C576B00847EAE /* images */; };
+		0218C8A92A7C576B00847EAE /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 0218C8A82A7C576B00847EAE /* manifest.json */; };
+		0218C8AD2A7C576B00847EAE /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 0218C8AC2A7C576B00847EAE /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0218C89E2A7C576B00847EAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0218C8782A7C576800847EAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0218C89B2A7C576B00847EAE;
+			remoteInfo = "VS Code Insiders Link Replacer Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0218C8BB2A7C576B00847EAE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0218C89D2A7C576B00847EAE /* VS Code Insiders Link Replacer Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0218C8802A7C576800847EAE /* VS Code Insiders Link Replacer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VS Code Insiders Link Replacer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0218C8832A7C576800847EAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0218C8872A7C576800847EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		0218C8892A7C576800847EAE /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		0218C88B2A7C576800847EAE /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		0218C88D2A7C576800847EAE /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		0218C88F2A7C576800847EAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0218C8922A7C576800847EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0218C8942A7C576B00847EAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0218C8962A7C576B00847EAE /* VS_Code_Insiders_Link_Replacer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VS_Code_Insiders_Link_Replacer.entitlements; sourceTree = "<group>"; };
+		0218C8972A7C576B00847EAE /* VS Code Insiders Link Replacer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "VS Code Insiders Link Replacer.entitlements"; sourceTree = "<group>"; };
+		0218C89C2A7C576B00847EAE /* VS Code Insiders Link Replacer Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "VS Code Insiders Link Replacer Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0218C8A12A7C576B00847EAE /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		0218C8A42A7C576B00847EAE /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		0218C8A62A7C576B00847EAE /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		0218C8A82A7C576B00847EAE /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		0218C8AC2A7C576B00847EAE /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		0218C8B42A7C576B00847EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0218C8B52A7C576B00847EAE /* VS_Code_Insiders_Link_Replacer_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VS_Code_Insiders_Link_Replacer_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0218C87D2A7C576800847EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0218C8992A7C576B00847EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0218C8772A7C576800847EAE = {
+			isa = PBXGroup;
+			children = (
+				0218C8822A7C576800847EAE /* VS Code Insiders Link Replacer */,
+				0218C8A02A7C576B00847EAE /* VS Code Insiders Link Replacer Extension */,
+				0218C8812A7C576800847EAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0218C8812A7C576800847EAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0218C8802A7C576800847EAE /* VS Code Insiders Link Replacer.app */,
+				0218C89C2A7C576B00847EAE /* VS Code Insiders Link Replacer Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0218C8822A7C576800847EAE /* VS Code Insiders Link Replacer */ = {
+			isa = PBXGroup;
+			children = (
+				0218C8832A7C576800847EAE /* AppDelegate.swift */,
+				0218C88F2A7C576800847EAE /* ViewController.swift */,
+				0218C8912A7C576800847EAE /* Main.storyboard */,
+				0218C8942A7C576B00847EAE /* Assets.xcassets */,
+				0218C8962A7C576B00847EAE /* VS_Code_Insiders_Link_Replacer.entitlements */,
+				0218C8972A7C576B00847EAE /* VS Code Insiders Link Replacer.entitlements */,
+				0218C8852A7C576800847EAE /* Resources */,
+			);
+			path = "VS Code Insiders Link Replacer";
+			sourceTree = "<group>";
+		};
+		0218C8852A7C576800847EAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0218C8862A7C576800847EAE /* Main.html */,
+				0218C8892A7C576800847EAE /* Icon.png */,
+				0218C88B2A7C576800847EAE /* Style.css */,
+				0218C88D2A7C576800847EAE /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0218C8A02A7C576B00847EAE /* VS Code Insiders Link Replacer Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0218C8A12A7C576B00847EAE /* SafariWebExtensionHandler.swift */,
+				0218C8B42A7C576B00847EAE /* Info.plist */,
+				0218C8B52A7C576B00847EAE /* VS_Code_Insiders_Link_Replacer_Extension.entitlements */,
+				0218C8A32A7C576B00847EAE /* Resources */,
+			);
+			path = "VS Code Insiders Link Replacer Extension";
+			sourceTree = "<group>";
+		};
+		0218C8A32A7C576B00847EAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0218C8A42A7C576B00847EAE /* _locales */,
+				0218C8A62A7C576B00847EAE /* images */,
+				0218C8A82A7C576B00847EAE /* manifest.json */,
+				0218C8AC2A7C576B00847EAE /* content.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0218C87F2A7C576800847EAE /* VS Code Insiders Link Replacer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0218C8BC2A7C576B00847EAE /* Build configuration list for PBXNativeTarget "VS Code Insiders Link Replacer" */;
+			buildPhases = (
+				0218C87C2A7C576800847EAE /* Sources */,
+				0218C87D2A7C576800847EAE /* Frameworks */,
+				0218C87E2A7C576800847EAE /* Resources */,
+				0218C8BB2A7C576B00847EAE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0218C89F2A7C576B00847EAE /* PBXTargetDependency */,
+			);
+			name = "VS Code Insiders Link Replacer";
+			productName = "VS Code Insiders Link Replacer";
+			productReference = 0218C8802A7C576800847EAE /* VS Code Insiders Link Replacer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0218C89B2A7C576B00847EAE /* VS Code Insiders Link Replacer Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0218C8B82A7C576B00847EAE /* Build configuration list for PBXNativeTarget "VS Code Insiders Link Replacer Extension" */;
+			buildPhases = (
+				0218C8982A7C576B00847EAE /* Sources */,
+				0218C8992A7C576B00847EAE /* Frameworks */,
+				0218C89A2A7C576B00847EAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VS Code Insiders Link Replacer Extension";
+			productName = "VS Code Insiders Link Replacer Extension";
+			productReference = 0218C89C2A7C576B00847EAE /* VS Code Insiders Link Replacer Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0218C8782A7C576800847EAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0218C87F2A7C576800847EAE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					0218C89B2A7C576B00847EAE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 0218C87B2A7C576800847EAE /* Build configuration list for PBXProject "VS Code Insiders Link Replacer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0218C8772A7C576800847EAE;
+			productRefGroup = 0218C8812A7C576800847EAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0218C87F2A7C576800847EAE /* VS Code Insiders Link Replacer */,
+				0218C89B2A7C576B00847EAE /* VS Code Insiders Link Replacer Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0218C87E2A7C576800847EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0218C88A2A7C576800847EAE /* Icon.png in Resources */,
+				0218C8932A7C576800847EAE /* Main.storyboard in Resources */,
+				0218C88E2A7C576800847EAE /* Script.js in Resources */,
+				0218C8882A7C576800847EAE /* Main.html in Resources */,
+				0218C8952A7C576B00847EAE /* Assets.xcassets in Resources */,
+				0218C88C2A7C576800847EAE /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0218C89A2A7C576B00847EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0218C8A72A7C576B00847EAE /* images in Resources */,
+				0218C8A92A7C576B00847EAE /* manifest.json in Resources */,
+				0218C8A52A7C576B00847EAE /* _locales in Resources */,
+				0218C8AD2A7C576B00847EAE /* content.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0218C87C2A7C576800847EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0218C8902A7C576800847EAE /* ViewController.swift in Sources */,
+				0218C8842A7C576800847EAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0218C8982A7C576B00847EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0218C8A22A7C576B00847EAE /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0218C89F2A7C576B00847EAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0218C89B2A7C576B00847EAE /* VS Code Insiders Link Replacer Extension */;
+			targetProxy = 0218C89E2A7C576B00847EAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0218C8862A7C576800847EAE /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0218C8872A7C576800847EAE /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		0218C8912A7C576800847EAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0218C8922A7C576800847EAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0218C8B62A7C576B00847EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0218C8B72A7C576B00847EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0218C8B92A7C576B00847EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "VS Code Insiders Link Replacer Extension/VS_Code_Insiders_Link_Replacer_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZN48NS8HAP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VS Code Insiders Link Replacer Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "VS Code Insiders Link Replacer Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sh.mcan.VS-Code-Insiders-Link-Replacer.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0218C8BA2A7C576B00847EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "VS Code Insiders Link Replacer Extension/VS_Code_Insiders_Link_Replacer_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZN48NS8HAP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VS Code Insiders Link Replacer Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "VS Code Insiders Link Replacer Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sh.mcan.VS-Code-Insiders-Link-Replacer.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0218C8BD2A7C576B00847EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "VS Code Insiders Link Replacer/VS Code Insiders Link Replacer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZN48NS8HAP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "VS Code Insiders Link Replacer";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sh.mcan.VS-Code-Insiders-Link-Replacer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0218C8BE2A7C576B00847EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "VS Code Insiders Link Replacer/VS Code Insiders Link Replacer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZN48NS8HAP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "VS Code Insiders Link Replacer";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sh.mcan.VS-Code-Insiders-Link-Replacer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0218C87B2A7C576800847EAE /* Build configuration list for PBXProject "VS Code Insiders Link Replacer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0218C8B62A7C576B00847EAE /* Debug */,
+				0218C8B72A7C576B00847EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0218C8B82A7C576B00847EAE /* Build configuration list for PBXNativeTarget "VS Code Insiders Link Replacer Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0218C8B92A7C576B00847EAE /* Debug */,
+				0218C8BA2A7C576B00847EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0218C8BC2A7C576B00847EAE /* Build configuration list for PBXNativeTarget "VS Code Insiders Link Replacer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0218C8BD2A7C576B00847EAE /* Debug */,
+				0218C8BE2A7C576B00847EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0218C8782A7C576800847EAE /* Project object */;
+}
