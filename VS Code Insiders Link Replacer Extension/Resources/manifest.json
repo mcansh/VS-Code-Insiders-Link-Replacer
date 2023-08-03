@@ -19,5 +19,5 @@
         "js": ["index.js"]
     }],
 
-    "permissions": ["activeTab"],
+    "permissions": ["activeTab"]
 }
