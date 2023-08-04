@@ -67,6 +67,7 @@
 		0218C8AC2A7C576B00847EAE /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
 		0218C8B42A7C576B00847EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0218C8B52A7C576B00847EAE /* VS_Code_Insiders_Link_Replacer_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VS_Code_Insiders_Link_Replacer_Extension.entitlements; sourceTree = "<group>"; };
+		0264578F2A7D53A300386311 /* VS-Code-Insiders-Link-Replacer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "VS-Code-Insiders-Link-Replacer-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +109,7 @@
 		0218C8822A7C576800847EAE /* VS Code Insiders Link Replacer */ = {
 			isa = PBXGroup;
 			children = (
+				0264578F2A7D53A300386311 /* VS-Code-Insiders-Link-Replacer-Info.plist */,
 				0218C8832A7C576800847EAE /* AppDelegate.swift */,
 				0218C88F2A7C576800847EAE /* ViewController.swift */,
 				0218C8912A7C576800847EAE /* Main.storyboard */,
@@ -496,6 +498,7 @@
 				DEVELOPMENT_TEAM = ZN48NS8HAP;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VS-Code-Insiders-Link-Replacer-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "VS Code Insiders Link Replacer";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -533,6 +536,7 @@
 				DEVELOPMENT_TEAM = ZN48NS8HAP;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VS-Code-Insiders-Link-Replacer-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "VS Code Insiders Link Replacer";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
