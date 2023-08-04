@@ -1,6 +1,6 @@
 // remap all links to vscode:// to vscode-insiders://
 function updateLinks() {
-let elements = Array.from(document.querySelectorAll('a[href^="vscode:"]'));
+    let elements = Array.from(document.querySelectorAll('a[href^="vscode:"]'));
 
     for (let element of elements) {
         let url = new URL(element.href);
